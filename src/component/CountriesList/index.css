@@ -1,0 +1,44 @@
+.list-item {
+  border: 1px solid #94a3b8;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 0;
+}
+.item-name {
+  font-size: 11px;
+  font-family: Roboto;
+  color: #f8fafc;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.button {
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  width: 45px;
+}
+.visited-button {
+  background-color: transparent;
+  border: 0;
+  color: #94a3b8;
+}
+.visit-button {
+  background-color: #3b82f6;
+  border: 0;
+  color: #ffffff;
+  border-radius: 3px;
+}
